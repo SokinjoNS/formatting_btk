@@ -21,6 +21,7 @@ EXAMPLE:
 volume = 1234567.89
 formatted_volume = format_number(volume)
 print(formatted_volume)  # Outputs: 1,234,567.89
+```python
 
 This README provides an overview of the `formatting` module's purpose, features, and basic usage, along with a simple example.
 
