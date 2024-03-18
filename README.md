@@ -1,16 +1,15 @@
-# formatting_btk
-# For data formatting
+# formatting_btk module for data formatting
 
 This utility module, named `formatting`, provides essential functions for formatting numerical data and generating standardized chart URLs for cryptocurrency market data. 
 
 Designed to enhance readability and consistency across crypto-related projects, it's particularly useful for scripts interfacing with Binance data and sending alerts through Telegram.
 
-## Features
+## FEATURES
 
 - `format_number`: Formats large numerical values into a readable format with thousands separators.
 - `generate_chart_url`: Generates URLs for viewing cryptocurrency charts on TradingView, supporting multiple platforms.
 
-## Usage
+## USAGE
 
 Import the module into your Python scripts to utilize its functions for data presentation enhancements:
 
@@ -23,7 +22,11 @@ formatted_volume = format_number(volume)
 print(formatted_volume)  # Outputs: 1,234,567.89
 ```
 
-This README provides an overview of the `formatting` module's purpose, features, and basic usage, along with a simple example.
+## CONTRIBUTIONS
 
-Adjust the content according to your project's specific details and requirements.
+Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or create a pull request.
+
+## LICENSE
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
